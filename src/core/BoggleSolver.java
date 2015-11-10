@@ -129,7 +129,7 @@ public class BoggleSolver {
 	}
 	
 	/**
-	 * Prints all words in foundWords to syso
+	 * Prints all words in foundWords to System.out
 	 */
 	public void printFound() {
 		for (String i : foundWords) {
@@ -140,7 +140,7 @@ public class BoggleSolver {
 	}
 	
 	/**
-	 * Prints all words in the sorted dictionary to syso
+	 * Prints all words in sorted to System.out
 	 */
 	public void printD() {
 		for (int x = 0; x < sorted.length; x++) {
